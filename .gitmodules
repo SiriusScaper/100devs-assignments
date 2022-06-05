@@ -1,0 +1,3 @@
+[submodule "class39/rap-names-api"]
+	path = class39/rap-names-api
+	url = https://github.com/SiriusScaper/rap-names-api.git
