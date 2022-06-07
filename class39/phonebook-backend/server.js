@@ -5,10 +5,9 @@ const morgan = require('morgan');
 const PORT = 3001;
 
 app.use(morgan('tiny'))
-
 app.use(express.json())
-
 app.use(cors())
+
 
 let people = [
   { 
