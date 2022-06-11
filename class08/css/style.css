@@ -19,6 +19,22 @@ section {
   border: 2px black solid;
 }
 
-@media screen {
-  
+@media screen and (max-width: 600px){ 
+  section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  header, footer {
+    background: rgb(134, 247, 176);
+  }
+  body  section {
+    background: yellow;
+    width: 50%;
+  }
+
+  section + section +section {
+    width: 100%;
+  }
 }

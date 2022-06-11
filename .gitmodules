@@ -1,3 +1,6 @@
 [submodule "class39/rap-names-api"]
 	path = class39/rap-names-api
 	url = https://github.com/SiriusScaper/rap-names-api.git
+[submodule "class39/filoni-sw-characters"]
+	path = class39/filoni-sw-characters
+	url = https://github.com/SiriusScaper/filoni-sw-characters.git
