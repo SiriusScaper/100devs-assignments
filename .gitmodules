@@ -4,3 +4,9 @@
 [submodule "class39/filoni-sw-characters"]
 	path = class39/filoni-sw-characters
 	url = https://github.com/SiriusScaper/filoni-sw-characters.git
+[submodule "class12/class39/star-trek-api-practice"]
+	path = class12/class39/star-trek-api-practice
+	url = https://github.com/SiriusScaper/star-trek-api-practice.git
+[submodule "class39/star-trek-api-practice"]
+	path = class39/star-trek-api-practice
+	url = https://github.com/SiriusScaper/star-trek-api-practice.git
