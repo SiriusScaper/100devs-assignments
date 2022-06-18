@@ -30,13 +30,131 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  height: 40.5px;
+  padding-bottom: 1.5px;
+  background: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}
 
+nav * {
+  float: left;
+  width: 10%;
+  color: rgba(255, 255, 255, 1);
+  display: block;
+}
+
+nav {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+nav img {
+  width: 75%;
+  height: 39px;
+}
+
+.fa-solid {
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+nav ul {
+  width: 50%;
+}
+
+nav form input {
+  width: 100%;
+  margin-top: 8px;
+}
+
+
+
+
+.first {
+  float: left;
+  width: 616px;
+  height: 346.5px;
+  margin-right: 6px;
+}
+
+
+.small-headline {
+  height: 168.75px;
+  width: 300px;
+  padding: 0 8px;
+  float: left;
+  margin: 0 6px;
+}
+
+.headlines {
+  margin: 0 20%;
+}
+
+h2 {
+  clear: left;
+  margin-top: 0;
+}
+
+h2>span {
+  padding-left: 52%;
+}
+
+img {
+  border: none;
+}
+
+.stories {
+  width: 405.333px;
+  height: 362.4px;
+  margin: 0 5px;
+  float: left;
+  /* margin: -5px; */
+}
+.news {
+  margin: 0 20%;
+}
+
+.stories > a > img {
+  width: 405.333px;
 }
 
 footer {
-
+  
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+a:link, li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.small-img {
+  background-repeat: no-repeat;
+}
+
+.first {
+  background: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/1676D/production/_113931029_composite.jpg) no-repeat;
+  background-size: 616px;
+}
+
+.second {
+  background-image: url(https://ichef.bbci.co.uk/news/416/cpsprodpb/D39B/production/_113917145_gettyimages-144092698.jpg);
+  margin-bottom: 9px;
+}
+
+.third {
+  background-image: url(https://ichef.bbci.co.uk/news/416/cpsprodpb/1771/production/_113910060_gettyimages-1219401083.jpg);
+  margin-bottom: 9px;
+}
+
+.fourth {
+  background-image: url(https://ychef.files.bbci.co.uk/624x351/p08ngz84.jpg);
+}
+
+.fifth {
+  background: url(https://ichef.bbci.co.uk/news/416/cpsprodpb/C385/production/_90135005_mediaitem90135004.jpg);
+}
