@@ -41,7 +41,19 @@ ul li {
   list-style: none;
 }
 
-a {
+ul {
+  padding: 0;
+}
+
+nav {
+  padding: 30px 20px 0 30px;
+}
+
+nav>a {
+  display: block;
+}
+
+a, li a, p a {
   text-decoration: none;
 }
 
@@ -49,9 +61,18 @@ main {
   width: 58%;
 }
 
-img {
+main>a>h1 {
+  margin: 0;
+}
+
+main span {
+  color: black;
+}
+
+main span+a>img {
   width: 80%;
-  height: auto;
+  height: 490px;
+  display: block;
 }
 
 aside {
@@ -61,6 +82,19 @@ aside {
 aside + section {
   margin: 4% 0 0 12%;
   clear: both;
+}
+
+
+
+.latest-news  section {
+  float: left;
+  width: 33.3333%;
+  display: block;
+}
+
+section>img {
+  width: auto;
+  height: 230px;
 }
 
 /******************************************
