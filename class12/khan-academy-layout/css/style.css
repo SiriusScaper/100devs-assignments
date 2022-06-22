@@ -55,15 +55,43 @@ p {
 /******************************************
 /* LAYOUT
 /*******************************************/
+header {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid rgb(214, 216, 218);
+}
+
+header nav {
+  margin-left: 16%;
+  width: 80%;
+}
+
 header nav > *{
   float: left;
   width: 10%;
-  margin: 1% 5%;
+  margin: 1% 8%;
+}
+
+header nav form {
+ margin: 0.5% 2% 0.25% 0.5%;
+}
+
+header nav > a {
+  width: 2%;
+  margin-right: 3%;
+  margin-left: 10%;
+}
+
+nav ul {
+  width: 20%;
+  margin-left: 4%;
+  margin-right: 2%;
 }
 
 header nav li {
   float: left;
-  width: 33%;
+  width: 20%;
+  margin: 0 2%;
 }
 
 main {
@@ -103,6 +131,12 @@ p + ul li {
 /*******************************************/
 nav a, input::placeholder {
   color: rgb(53, 100, 236);
+}
+
+input {
+  background: rgb(240, 241, 242);
+  border: 0;
+  height: 40px;
 }
 
 a.link-button {
