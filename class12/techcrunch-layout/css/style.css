@@ -23,9 +23,13 @@
 
 body {
   max-width: 70%;
-  font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.77;
+}
+
+nav > a, li > a, main a, span > a, section h3 {
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -37,13 +41,11 @@ nav, main, aside {
   width: 12%;
 }
 
-ul li {
-  list-style: none;
-}
-
 ul {
+  list-style: none;
   padding: 0;
 }
+
 
 nav {
   padding: 30px 20px 0 30px;
@@ -53,9 +55,6 @@ nav>a {
   display: block;
 }
 
-a, li a, p a {
-  text-decoration: none;
-}
 
 main {
   width: 58%;
@@ -85,7 +84,6 @@ aside + section {
 }
 
 
-
 .latest-news  section {
   float: left;
   width: 33.3333%;
@@ -100,3 +98,15 @@ section>img {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+}
+
+a:hover {
+  color: rgb(127, 127, 127);
+}
+
+nav a:hover {
+  color: rgb(91, 169, 116);
+}
