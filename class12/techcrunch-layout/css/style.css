@@ -95,6 +95,21 @@ section>img {
   height: 230px;
 }
 
+h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 98%;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+nav > ul {
+  font-size: 1.8rem;
+  color: rgb(188, 188, 188);
+  font-weight: 300;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

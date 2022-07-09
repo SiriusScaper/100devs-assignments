@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Blank Template</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Your description goes here" />
+		<meta name="keywords" content="one, two, three" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>BBC - Homepage</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<header>
 			<nav>
 				<a href="https://placeholder.coom">
-					<img src="https://via.placeholder.com/150" alt="">
+					<img src="https://via.placeholder.com/150" alt="" />
 				</a>
-				<ul>
+				<ul class="fa-ul">
 					<li>
-						<a href="#"><i class="fa-solid fa-circle-user"></i>Sign in</a>
+						<span class="fa-li"><i class="fa-solid fa-circle-user"></i></span>
+						<a class="signin" href="#">Signin</a>
 					</li>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">News</a></li>
@@ -32,78 +39,104 @@
 					<li><a href="#">Culture</a></li>
 					<li><a href="#">More</a></li>
 				</ul>
-				<form action="" method="get"><input type="search" name="Search" id=""></form>
+				<form action="" method="get">
+					<input type="search" name="Search" id="" />
+				</form>
 			</nav>
 		</header>
 		<main class="headlines">
-			<h2>Welcome to BBC.com
+			<h2>
+				Welcome to BBC.com
 				<span>
 					<time datetime="2020-08-13T19:00">Thursday, 13 August</time>
 				</span>
 			</h2>
+			<a class="pic" href="#">
 			<section class="first">
-			<a href="#">
-				<h1>Israel and UAE Strike historic peace deal</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, cum?</p>
-			</a>
-				<span><a href="#">MIDDLE EAST</a></span>
+					<h1>Israel and UAE Strike historic peace deal</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+						cum?
+					</p>
+					<span>|<a href="#">MIDDLE EAST</a></span>
+				</a>
 			</section>
 			<section>
 				<section class="second small-headline">
 					<a href="#">
 						<h3>Americans, go home: Tension at Canada-US border</h3>
 					</a>
-					<span><a href="#">CANDA</a></span>
+					<span>|<a href="#">CANDA</a></span>
 				</section>
 				<section class="third small-headline">
 					<a href="#">
 						<h3>How will the world vaccinate seven billion people?</h3>
 					</a>
-					<span><a href="#">HEALTH</a></span>
+					<span>|<a href="#">HEALTH</a></span>
 				</section>
 				<section class="fourth small-headline">
 					<a href="#">
 						<h3>The online 'productivity gyms'</h3>
 					</a>
-					<span><a href="#">WORKLIFE</a></span>
+					<span>|<a href="#">WORKLIFE</a></span>
 				</section>
 				<section class="fifth small-headline">
 					<a href="#">
 						<h3>The folk singer murdered for his music</h3>
 					</a>
-					<span><a href="#">CULTURE</a></span>
+					<span>|<a href="#">CULTURE</a></span>
 				</section>
 			</section>
 		</main>
 		<section class="news">
-				<h2><a href="#">NEWS</a></h2>
-				<section class="stories">
-					<a href="#">
-						<img src="https://ichef.bbci.co.uk/news/416/cpsprodpb/6C7B/production/_113917772_062888947.jpg" alt="biden and harris">
+			<h2>|<a href="#">News</a></h2>
+			<section class="stories">
+				<a href="#">
+					<img
+						src="https://ichef.bbci.co.uk/news/416/cpsprodpb/6C7B/production/_113917772_062888947.jpg"
+						alt="biden and harris"
+					/>
 					<h3>Biden and Harris say Trump has left US 'in tatters'</h3>
-					<p>Joe Biden and running mate Kamala Harris call President Donald Trump "whining" incompetent leader.</p>
+					<p>
+						Joe Biden and running mate Kamala Harris call President Donald Trump
+						"whining" incompetent leader.
+					</p>
 				</a>
-				<a href="#"><span>US ELECTION 2020</span></a>
+				<a href="#">|<span>US ELECTION 2020</span></a>
 			</section>
 			<section class="stories">
 				<a href="#">
-					<img src="https://ichef.bbci.co.uk/news/416/cpsprodpb/EA08/production/_113921995_hi062881024.jpg" alt="women protesting in belarus">
+					<img
+						src="https://ichef.bbci.co.uk/news/416/cpsprodpb/EA08/production/_113921995_hi062881024.jpg"
+						alt="women protesting in belarus"
+					/>
 					<h3>Women form 'solidarity chains' in Belarus</h3>
-					<p>Women take to the streets of Minsk dressed in white as they demand an end to police brutality.</p>
+					<p>
+						Women take to the streets of Minsk dressed in white as they demand
+						an end to police brutality.
+					</p>
 				</a>
-				<a href="#"><span>EUROPE</span></a>
+				<a href="#">|<span>EUROPE</span></a>
 			</section>
 			<section class="stories">
 				<a href="#">
-					<img src="https://ichef.bbci.co.uk/news/384/cpsprodpb/295F/production/_113919501_hi045965426.jpg" alt="trump looking idiotic">
+					<img
+						src="https://ichef.bbci.co.uk/news/384/cpsprodpb/295F/production/_113919501_hi045965426.jpg"
+						alt="trump looking idiotic"
+					/>
 					<h3>Trump says low-pressure shower heads won't wash</h3>
-					<p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+					<p>
+						The US calls for rules to be eased after Donald Trump complained of
+						issues washing his hair.
+					</p>
 				</a>
-				<a href="#"><span>US & CANADA</span></a>
+				<a href="#">|<span>US & CANADA</span></a>
 			</section>
 		</section>
 		<script type="text/javascript" src="js/main.js"></script>
-		<script src="https://kit.fontawesome.com/2cc64ca295.js" crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/2cc64ca295.js"
+			crossorigin="anonymous"
+		></script>
 	</body>
-	</html>
-	
+</html>

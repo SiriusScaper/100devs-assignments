@@ -22,6 +22,7 @@
 /*******************************************/
 
 body {
+  font-family: 'Martel Sans', sans-serif;
 
 }
 
@@ -50,18 +51,21 @@ nav {
 
 nav img {
   width: 75%;
-  height: 39px;
+  height: 40px;
+}
+
+li > .signin {
+  width: 4px;
+  display: block;
 }
 
 .fa-solid {
   color: white;
-  width: 20px;
-  height: 20px;
-  display: block;
+  width: 5px;
 }
 
 nav ul {
-  width: 50%;
+  width: 60%;
 }
 
 nav form input {
@@ -70,6 +74,9 @@ nav form input {
 }
 
 
+section .first {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 .first {
@@ -77,8 +84,38 @@ nav form input {
   width: 616px;
   height: 346.5px;
   margin-right: 6px;
+  clear: both;
 }
 
+.first h1, .first p, .first span {
+  margin-left: 2%;
+}
+
+.first h1 {
+  margin-top: 230px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.first p {
+  font-size: 1rem;
+}
+
+.first > span > a, .first p {
+  color: rgb(204, 206, 207);
+}
+
+.first > a, .small-headline > a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.small-headline span > a {
+  color: rgb(204, 206, 207);
+}
+
+span > time {
+  color: rgb(167, 167, 167);
+}
 
 .small-headline {
   height: 168.75px;
@@ -88,8 +125,39 @@ nav form input {
   margin: 0 6px;
 }
 
+.small-headline a {
+  padding-left: 2%;
+}
+
+.first span {
+  color: rgb(232, 61, 28);
+}
+
+.second span {
+  color: rgb(101, 184, 235);
+}
+
+.third span {
+  color: rgb(232, 61, 28);
+}
+
+.fourth span {
+  color: rgb(101, 184, 235);
+}
+
+.fifth span {
+  color: rgb(93, 82, 167);
+}
+
+.small-headline > a {
+  display: block;
+  margin-top: 100px;
+  font-size: .8rem;
+  
+}
+
 .headlines {
-  margin: 0 20%;
+  margin: 1.6% 20% 0 20%;
 }
 
 h2 {
@@ -97,8 +165,12 @@ h2 {
   margin-top: 0;
 }
 
+h2 a {
+  color: rgb(81, 81, 81);
+}
+
 h2>span {
-  padding-left: 52%;
+  padding-left: 48%;
 }
 
 img {
@@ -112,9 +184,20 @@ img {
   float: left;
   /* margin: -5px; */
 }
+
+.stories a {
+  color: rgba(0, 0, 0, 1);
+}
+
 .news {
   margin: 0 20%;
 }
+
+.news > h2 {
+  padding-top: 4%;
+  color: rgb(230, 78, 43);
+}
+
 
 .stories > a > img {
   width: 405.333px;
@@ -136,10 +219,19 @@ a:link, li{
   background-repeat: no-repeat;
 }
 
+.first, .second, .third, .fourth, .fifth {
+  box-shadow: rgba(0, 0, 0, .24) 0 0 0 1000000px inset;
+}
+
 .first {
   background: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/1676D/production/_113931029_composite.jpg) no-repeat;
   background-size: 616px;
 }
+
+.first ::after {
+  background: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/1676D/production/_113931029_composite.jpg) no-repeat;
+  background-size: 616px;
+} 
 
 .second {
   background-image: url(https://ichef.bbci.co.uk/news/416/cpsprodpb/D39B/production/_113917145_gettyimages-144092698.jpg);
