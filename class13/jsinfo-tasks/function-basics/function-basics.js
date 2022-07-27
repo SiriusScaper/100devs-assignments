@@ -41,7 +41,25 @@
 // }
 // Rewrite it, to perform the same, but without if, in a single line.
 
+function checkAge(age) {
+  age = age > 18 || confirm('Did your parents allow you?')
+}
+
 // Make two variants of checkAge:
 
 // Using a question mark operator ?
+function checkAge2(age){
+  (age > 18) ? true : confirm('Did your parents allow you?')
+}
 // Using OR ||
+function checkAge3(age){
+  (age > 18) || confirm('Did your parents allow you?')
+}
+
+// Function min(a, b)
+// importance: 1
+// Write a function min(a,b) which returns the least of two numbers a and b.
+
+function getMinNum (a, b) {
+  
+}
