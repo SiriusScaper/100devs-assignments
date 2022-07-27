@@ -61,5 +61,17 @@ function checkAge3(age){
 // Write a function min(a,b) which returns the least of two numbers a and b.
 
 function getMinNum (a, b) {
+  return (a > b) ? b : a
+}
+
+getMinNum (2, 5) == 2 //true
+getMinNum (3, -1) == -1 //true
+getMinNum (1, 1) == 1 // true
+
+// Function pow(x,n)
+// importance: 4
+// Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
+
+function calcPowerN (x, n) {
   
 }
