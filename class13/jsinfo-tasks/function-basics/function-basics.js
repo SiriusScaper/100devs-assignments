@@ -73,5 +73,18 @@ getMinNum (1, 1) == 1 // true
 // Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
 
 function calcPowerN (x, n) {
-  
+    let num = x;
+    for (let i = 1; i < n; i++){
+      num *= x;
+    }
+  return num
+}
+
+let x = prompt("Enter a base number")
+let n = prompt("Enter an exponent")
+
+if (x < 0 || n < 0) {
+  alert("Please enter a positive integer")
+} else {
+  alert(calcPowerN(x,n))
 }
