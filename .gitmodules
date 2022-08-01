@@ -10,3 +10,5 @@
 [submodule "class39/star-trek-api-practice"]
 	path = class39/star-trek-api-practice
 	url = https://github.com/SiriusScaper/star-trek-api-practice.git
+[submodule "class42/todo-list-express"]
+	path = class42/todo-list-express
