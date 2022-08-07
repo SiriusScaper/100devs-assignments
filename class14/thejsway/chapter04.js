@@ -108,6 +108,24 @@ while (num4 > 9 || num4 < 2) {
 
 let text = prompt()
 
-while (text !== "no" && text !== "yes"){
+while (text != "no" || text != "yes"){
   text = prompt("Neither yes, nor no")
 }
+
+// FizzBuzz
+// Write a program that shows all numbers between 1 and 100 with the following exceptions:
+for (i = 1; i < 100; i++) {
+  // When it's done, improve it so that the program shows "FizzBuzz" instead for numbers divisible both by 3 and by 5.
+  if (i % 3 === 0 && i % 5 === 0){
+    console.log("FizzBuzz");
+  } else if (i % 5 === 0) {
+    // It shows "Buzz" instead if the number is divisible by 5 and not by 3.
+    console.log("Buzz")
+  } else if (i % 3 === 0) {
+    // It shows "Fizz" instead if the number is divisible by 3.
+    console.log("Fizz")
+  } else {
+    console.log(i);
+  }
+}
+
