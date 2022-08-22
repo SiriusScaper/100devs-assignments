@@ -130,3 +130,10 @@ for (i = 1; i < 101; i++) {
   }
 }
 
+// Recursive
+let FizzBuzz = num => {
+  if (num === 101) return;
+  num % 15 === 0 ? console.log('FizzBuzz') : num % 5 === 0 ? console.log('Buzz') : num % 3 === 0 ? console.log('Fizz') : console.log(num)
+  FizzBuzz(num + 1)
+}
+
