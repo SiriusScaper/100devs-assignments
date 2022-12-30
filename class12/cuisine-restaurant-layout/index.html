@@ -1,124 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Your description goes here" />
-		<meta name="keywords" content="one, two, three" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<title>Blank Template</title>
-
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<title>Restaurant Website</title>
+		<!-- add any necessary stylesheets and scripts here -->
 	</head>
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="#" target="_blank">Home</a></li>
-					<li><a href="#" target="_blank">About Us</a></li>
-					<li><a href="#" target="_blank">Menu</a></li>
-					<li><a href="#" target="_blank">Order Now</a></li>
-					<li><a href="#" target="_blank">Blog</a></li>
-					<li><a href="#" target="_blank">Location</a></li>
+		<!-- Section 1: Home with Nav Bar -->
+		<section class="section" id="home">
+			<nav class="navbar">
+				<ul class="navbar">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#">Order Now</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
 				</ul>
-				<a href="#">Shopping Cart</a>
-				<a href="#">Search</a>
 			</nav>
-		</header>
-		<main>
-			<h1>Welcome To Our Cuisine Restaurant</h1>
-			<form action="">
-				<input type="search" name="" id="" /><a href="http://">Location</a>
+			<h1>Welcome to our Restaurant!</h1>
+			<form>
+				<input type="text" placeholder="Search for a location..." />
+				<select>
+					<option value="location1">Location 1</option>
+					<option value="location2">Location 2</option>
+					<option value="location3">Location 3</option>
+				</select>
 			</form>
-			<a href="#">fb follows</a>
-			<a href="#">twitter follows</a>
-			<a href="#">instagram follows</a>
-		</main>
-		<section>
-			<span></span>
-			<h2>Discover Our Restaurant Story</h2>
+			<!-- Add any other content you want for the home section -->
+		</section>
+
+		<!-- Section 2: About Us -->
+		<section class="section" id="about">
+			<h2>About Us</h2>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
-				rerum! Similique iure aut omnis! Nisi veritatis ab architecto hic rem
-				corrupti laudantium quidem, eum vero inventore doloremque facere
-				repudiandae laboriosam expedita sapiente corporis distinctio, odio
-				dolore officiis harum ipsa! Qui itaque vitae aut odio inventore corrupti
-				possimus fugiat labore autem.
+				We are a family-owned restaurant serving delicious food since 1990.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+				ipsum in sem ullamcorper malesuada. Integer pulvinar euismod sapien, at
+				posuere ligula feugiat vitae.
 			</p>
+			<!-- Add any other content you want for the About Us section -->
+		</section>
+
+		<!-- Section 3: Order Online Now -->
+		<section class="section" id="order">
+			<h2>Order Online Now</h2>
 			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-				Exercitationem, illo voluptatem quas eaque molestiae dolorum.
+				Order your favorite dishes online and get them delivered to your
+				doorstep. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+				vehicula ipsum in sem ullamcorper malesuada. Integer pulvinar euismod
+				sapien, at posuere ligula feugiat vitae.
 			</p>
-			<a href="http://">Discover Menu</a>
+			<!-- Add any other content you want for the Order Online Now section -->
 		</section>
-		<section>
-			<span>Order Online Now</span>
-			<h3>Our Speciality Cuisine</h3>
-			<ul>
-				<li><a href="http://">Breakfast</a></li>
-				<li><a href="http://">Lunch</a></li>
-				<li><a href="http://">Dinner</a></li>
-				<li><a href="http://">Dessert</a></li>
-				<li><a href="http://">Shake</a></li>
-			</ul>
-			<ul>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-				<li>
-					<a href="http://"><img src="" alt="" /></a>
-				</li>
-			</ul>
-		</section>
-		<section>
-			<span></span>
-			<h3></h3>
-			<i></i><span></span><span></span>
-			<section>
-				<h4></h4>
-				<span></span>
-			</section>
-			<section>
-				<h4></h4>
-				<span></span>
-			</section>
-			<img src="" alt="" />
-		</section>
-		<section>
-			<span></span>
-			<h5></h5>
-			<img src="" alt="" />
-			<span></span>
-			<span></span>
-			<img src="" alt="" />
+
+		<!-- Section 4: Book Table -->
+		<section class="section" id="book">
+			<h2>Book Table</h2>
 			<p>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-				impedit doloremque vero assumenda illum corrupti adipisci reiciendis
-				sint. Molestiae similique nemo impedit temporibus, corrupti fugit vel
-				illum enim provident! Facere?
+				Make a reservation for your next visit to our restaurant. Lorem ipsum
+				dolor sit amet, consectetur adipiscing elit. Duis vehicula ipsum in sem
+				ullamcorper malesuada. Integer pulvinar euismod sapien, at posuere
+				ligula feugiat vitae.
 			</p>
-			<img src="" alt="" />
+			<!-- Add any other content you want for the Book Table section -->
 		</section>
-		<script type="text/javascript" src="js/main.js"></script>
+
+		<!-- Section 5: Testimonials -->
+		<section class="section" id="testimonials">
+			<h2>Testimonials</h2>
+			<p>See what our customers are saying about us.</p>
+			<!-- Add any other content you want for the Testimonials section -->
+		</section>
 	</body>
 </html>

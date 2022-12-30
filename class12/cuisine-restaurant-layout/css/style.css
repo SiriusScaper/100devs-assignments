@@ -1,45 +1,62 @@
-/* Box Model Hack */
-* {
-  box-sizing: border-box;
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
-  
+  width: 100%;
+  margin: 0;
 }
 
-ul > li {
-  list-style: none;
+#home {
+  background-image: url("home.jpg");
+  width: 100%;
+  margin: 0 auto;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-header {
-
+#about {
+  background-image: url("about.jpg");
+  width: 100%;
+  margin: 0 auto;
 }
 
-footer {
-
+#order {
+  background-image: url("order.jpg");
+  width: 100%;
+  margin: 0 auto;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+#book {
+  background-image: url("book.jpg");
+  width: 100%;
+  margin: 0 auto;
+}
+
+#testimonials {
+  background-image: url("testimonials.jpg");
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px; /* set a default height */
+  background-size: cover; /* make sure the background image covers the entire section */
+}
+
+/* media queries for different screen sizes */
+@media (min-width: 768px) { /* for tablets and larger */
+  .section {
+    width: 50%; /* make sections take up half the screen */
+    display: inline-block; /* display sections side-by-side */
+  }
+}
+
+@media (min-width: 1024px) { /* for desktops and larger */
+  .section {
+    width: 33.33%; /* make sections take up one-third of the screen */
+  }
+}
