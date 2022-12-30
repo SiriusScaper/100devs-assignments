@@ -1,62 +1,84 @@
 body {
-  width: 100%;
-  margin: 0;
+	margin: 0;
+	padding: 0;
+  background: aqua;
 }
 
-#home {
-  background-image: url("home.jpg");
-  width: 100%;
-  margin: 0 auto;
+header {
+	background-color: #333;
+	height: 50px;
+	padding: 10px;
 }
 
-#about {
-  background-image: url("about.jpg");
-  width: 100%;
-  margin: 0 auto;
+nav {
+	float: right;
 }
 
-#order {
-  background-image: url("order.jpg");
-  width: 100%;
-  margin: 0 auto;
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-#book {
-  background-image: url("book.jpg");
-  width: 100%;
-  margin: 0 auto;
+nav li {
+	float: left;
+	margin-left: 20px;
 }
 
-#testimonials {
-  background-image: url("testimonials.jpg");
-  width: 100%;
-  margin: 0 auto;
+nav a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 auto;
+section {
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
 
-.section {
-  width: 100%;
-  margin: 0 auto;
-  height: 400px; /* set a default height */
-  background-size: cover; /* make sure the background image covers the entire section */
+.section1 {
+	background-image: url('section1-bg.jpg');
 }
 
-/* media queries for different screen sizes */
-@media (min-width: 768px) { /* for tablets and larger */
-  .section {
-    width: 50%; /* make sections take up half the screen */
-    display: inline-block; /* display sections side-by-side */
+.section2 {
+	background-image: url('section2-bg.jpg');
+}
+
+.section3 {
+	background-image: url('section3-bg.jpg');
+}
+
+.section4 {
+	background-image: url('section4-bg.jpg');
+}
+
+.section5 {
+	background-image: url('section5-bg.jpg');
+}
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer {
+	background-color: #333;
+	height: 50px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  nav {
+    float: none;
   }
-}
 
-@media (min-width: 1024px) { /* for desktops and larger */
-  .section {
-    width: 33.33%; /* make sections take up one-third of the screen */
+  nav li {
+    float: none;
+    margin-left: 0;
   }
 }
